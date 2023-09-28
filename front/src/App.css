@@ -1,0 +1,84 @@
+section {
+  display: flex;
+  flex-direction: row;
+  height: 92vh;
+  padding: 0;
+  margin: 0;
+}
+
+.clientes{
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.70);
+  width: 30%;
+}
+.caja-clientes{
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  height: 100%;
+  overflow-y: auto;
+}
+.cliente{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 5px;
+  background-color: black;
+}
+
+.mensajes{
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.514);
+  width: 70%;
+}
+.caja-mensajes{
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  height: 100%;
+  overflow-y: auto;
+}
+.mensaje{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 300px;
+  margin: 5px;
+}
+.from{
+  color: gray;
+  font-size: small;
+}
+.dialogo-left{
+  float: left;
+  background-color: rgb(35, 31, 65);
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+.dialogo-right{
+  float: right;
+  text-align: end;
+  background-color: rgb(54, 36, 73);
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+.dialogo-center{
+  text-align: center;
+  color: gray;
+}
+
+form{
+  display: flex;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.70);
+  justify-content: space-between;
+}
+form input{
+  width: 100%;
+  margin: 0;
+  margin-right: 10px;
+}
+form button{
+  margin: 0;
+}
